@@ -2,7 +2,9 @@ import { Event } from "./pages/Event"
 
 function App() {
   return (
-    <Event />
+    <div>
+      <Event />
+    </div>
   )
 }
 
