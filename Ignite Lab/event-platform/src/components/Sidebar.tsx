@@ -1,50 +1,65 @@
 import { gql, useQuery } from "@apollo/client";
+import { useState } from "react";
 import { Lesson } from "./Lesson";
-
-const GET_LESSONS_QUERY = gql`
-  query {
-    lessons(orderBy: availableAt_ASC, stage: PUBLISHED) {
-      id
-      lessonType
-      availableAt
-      title
-      slug
-    }
-  }
-`
-
-interface GetLessonsQueryResponse {
-  lessons: {
-    id: string
-    title: string
-    slug: string
-    availableAt: string
-    lessonType: 'live' | 'class'
-  }[]
-}
+import classNames from 'classnames';
+import { List, X } from 'phosphor-react';
+import { useGetLessonsQuery } from "../graphql/generated";
 
 export function Sidebar() {
-  const { data } = useQuery<GetLessonsQueryResponse>(GET_LESSONS_QUERY)
+  const { data } = useGetLessonsQuery()
+  const [isOpen, setIsOpen] = useState(true);
 
   return (
-    <aside className="w-[348px] bg-gray-700 p-6 border-l border-gray-600">
-      <span className="font-bold text-2xl pb-6 mb-6 border-b border-gray-500 block">
-        Cronograma de Aulas
-      </span>
+    <>
+      <div className="absolute top-5 right-5 z-50 lg:hidden flex items-center gap-2">
+          <span className="block text-md">Aulas</span>
 
-      <div className="flex flex-col gap-8">
-        {data?.lessons.map(lesson => {
-          return (
-            <Lesson
-              key={lesson.id}
-              title={lesson.title}
-              slug={lesson.slug}
-              availableAt={new Date(lesson.availableAt)}
-              type={lesson.lessonType}
+          {isOpen ? (
+            <X
+              size={24}
+              className="text-green-500 cursor-pointer"
+              onClick={() => setIsOpen(!isOpen)}
             />
-          )
-        })}
-      </div>
-    </aside>
-  )
+          ) : (
+            <List
+              size={24}
+              className="text-green-500 cursor-pointer"
+              onClick={() => setIsOpen(!isOpen)}
+            />
+          )}
+        </div>
+
+        <aside
+          className={classNames(
+            'lg:relative lg:block lg:w-[21.75rem] bg-gray-700 p-2 border-l border-gray-600',
+            {
+              'block w-full min-h-[180vh] absolute z-50': isOpen,
+              'hidden ': !isOpen,
+            }
+          )}
+        >
+          <div className="h-full p-4 scrollbar-thumb-green-500 scrollbar-track-gray-700 scrollbar-thin flex-1">
+            <span className="font-bold text-2xl pb-6 mb-6 border-b border-gray-500 block">
+              Cronogramas de aulas
+            </span>
+
+            <div className="flex flex-col gap-8">
+              {data?.lessons.map((lesson) => {
+                return (
+                  <div onClick={() => setIsOpen(!isOpen)}>
+                    <Lesson
+                      key={lesson.id}
+                      title={lesson.title}
+                      slug={lesson.slug}
+                      availableAt={new Date(lesson.availableAt)}
+                      type={lesson.lessonType}
+                    />
+                  </div>
+                );
+              })}
+            </div>
+        </div>
+      </aside>
+    </>
+  );
 }
