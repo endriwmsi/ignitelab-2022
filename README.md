@@ -1,11 +1,3 @@
-<br>
-<div align="center">
-  <img src=".github/logo.svg"/>
-</div>
-<br>
-
-<br>
-
 # Ignite Lab
 
 <img style="border-top-left-radius: 8px; border-top-right-radius: 8px;" src="./event-platform/src/assets/.github/back.svg"/>
@@ -27,13 +19,13 @@
 
 # 🧪 Tecnologias utilizadas
 
-# [React](https://pt-br.reactjs.org/)
+## [React](https://pt-br.reactjs.org/)
 
-# [Vite](https://vitejs.dev/)
+## [Vite](https://vitejs.dev/)
 
-# [GraphCMS](https://graphcms.com/)
+## [GraphCMS](https://graphcms.com/)
 
-# [GraphQL](https://graphql.org/)
+## [GraphQL](https://graphql.org/)
 
 <br>
 <br>
