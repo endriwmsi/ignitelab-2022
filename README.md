@@ -26,11 +26,13 @@
 <a href="https://graphql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/graphql-colored.svg" width="36" height="36" alt="GraphQL" /></a>
 <a href="https://vitejs.dev" target="_blank" rel="noreferrer"><img src="https://vitejs.dev/logo.svg" width="36" height="36" alt="ViteJS" /></a>
 </p>
+<a href="hygraph.com" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/graphcms-mark.svg" width="36" height="36" alt="Hygraph" /></a>
+</p>
 
 <br>
 <br>
 
-# 🚀 Como começar?
+## 🚀 Como começar?
 
 ```sh
   git clone https://github.com/endriwmsi/ignitelab.git
@@ -49,12 +51,6 @@
 
 ## O projeto está disponivel em: _*https://event-platform-five-woad.vercel.app*_
 
-<br>
-<br>
-
-# 📝 Licença
-
-<br>
 <br>
 
 <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
