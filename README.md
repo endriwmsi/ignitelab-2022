@@ -4,28 +4,22 @@
 </div>
 <br>
 
-<div align="center">
-  <img src="https://img.shields.io/github/license/ogabrielrodrigues/ignitelab"/>
-  <img src="https://img.shields.io/github/issues/ogabrielrodrigues/ignitelab">
-  <img src="https://img.shields.io/github/package-json/dependency-version/ogabrielrodrigues/ignitelab/react">
-</div>
-
 <br>
 
 # Ignite Lab
 
-<img style="border-top-left-radius: 8px; border-top-right-radius: 8px;" src=".github/back.svg"/>
+<img style="border-top-left-radius: 8px; border-top-right-radius: 8px;" src="./src/assets/.github/back.svg"/>
 
 <br>
 
 # 🎞️ Aplicação
 
 <div>
-  <img style="border-radius: 8px;" src=".github/subscreen.svg"/>
+  <img style="border-radius: 8px;" src="./src/assets/.github/subscreen.svg"/>
 
   <br>
 
-  <img style="border-radius: 8px;" src=".github/eventscreen.svg"/>
+  <img style="border-radius: 8px;" src="./src/assets/.github/eventscreen.svg"/>
 </div>
 
 <br>
