@@ -78,7 +78,7 @@ export function Subscribe() {
         </div>
       </div>
 
-      <img src="./src/assets/code.png" />
+      <img src="./assets/code.png" />
     </div>
   );
 }
