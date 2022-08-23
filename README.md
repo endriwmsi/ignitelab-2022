@@ -15,11 +15,11 @@
 # 🎞️ Aplicação
 
 <div>
-  <img style="border-radius: 8px;" src="./src/assets/.github/subscreen.svg"/>
+  <img style="border-radius: 8px;" src="./event-platform/src/assets/.github/subscreen.svg"/>
 
   <br>
 
-  <img style="border-radius: 8px;" src="./src/assets/.github/eventscreen.svg"/>
+  <img style="border-radius: 8px;" src="./event-platform/src/assets/.github/eventscreen.svg"/>
 </div>
 
 <br>
@@ -27,13 +27,13 @@
 
 # 🧪 Tecnologias utilizadas
 
-## [React](https://pt-br.reactjs.org/)
+# [React](https://pt-br.reactjs.org/)
 
-## [Vite](https://vitejs.dev/)
+# [Vite](https://vitejs.dev/)
 
-## [GraphCMS](https://graphcms.com/)
+# [GraphCMS](https://graphcms.com/)
 
-## [GraphQL](https://graphql.org/)
+# [GraphQL](https://graphql.org/)
 
 <br>
 <br>
