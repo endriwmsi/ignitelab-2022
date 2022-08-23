@@ -15,7 +15,6 @@
 </div>
 
 <br>
-<br>
 
 ### 🧪 Tecnologias utilizadas
 
@@ -32,7 +31,7 @@
 
 ```sh
   git clone https://github.com/endriwmsi/ignitelab-2022.git
-  cd ignitelab
+  cd event-platform
 ```
 
 ```sh
