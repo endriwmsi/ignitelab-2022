@@ -8,7 +8,7 @@
 
 # Ignite Lab
 
-<img style="border-top-left-radius: 8px; border-top-right-radius: 8px;" src="./src/assets/.github/back.svg"/>
+<img style="border-top-left-radius: 8px; border-top-right-radius: 8px;" src="./event-platform/src/assets/.github/back.svg"/>
 
 <br>
 
