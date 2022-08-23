@@ -32,7 +32,7 @@
 <br>
 <br>
 
-## 🚀 Como começar?
+### 🚀 Como começar?
 
 ```sh
   git clone https://github.com/endriwmsi/ignitelab-2022.git
@@ -49,8 +49,7 @@
   yarn dev # com Yarn
 ```
 
-## O projeto está disponivel em: _*https://event-platform-five-woad.vercel.app*_
-
+## Acesse o projeto clicando: <a href="hygraph.com" target="_blank" rel="noreferrer">Aqui</a>
 <br>
 
 <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
