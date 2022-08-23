@@ -1,10 +1,10 @@
-# Ignite Lab
+### Ignite Lab
 
 <img style="border-top-left-radius: 8px; border-top-right-radius: 8px;" src="./event-platform/src/assets/.github/back.svg"/>
 
 <br>
 
-# 🎞️ Aplicação
+### 🎞️ Aplicação
 
 <div>
   <img style="border-radius: 8px;" src="./event-platform/src/assets/.github/subscreen.svg"/>
@@ -17,7 +17,7 @@
 <br>
 <br>
 
-## 🧪 Tecnologias utilizadas
+### 🧪 Tecnologias utilizadas
 
 <p align="left">
 <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a>
@@ -27,10 +27,6 @@
 <a href="https://vitejs.dev" target="_blank" rel="noreferrer"><img src="https://vitejs.dev/logo.svg" width="36" height="36" alt="ViteJS" /></a>
 <a href="hygraph.com" target="_blank" rel="noreferrer"><img fill="white" src="https://cdn.worldvectorlogo.com/logos/graphcms-mark.svg" width="36" height="36" alt="Hygraph" /></a>
 </p>
-
-
-<br>
-<br>
 
 ### 🚀 Como começar?
 
@@ -49,7 +45,7 @@
   yarn dev # com Yarn
 ```
 
-## Acesse o projeto clicando: <a href="hygraph.com" target="_blank" rel="noreferrer">Aqui</a>
+### Acesse o projeto clicando: <a href="https://event-platform-seven-swart.vercel.app" target="_blank" rel="noreferrer">Aqui</a>
 <br>
 
 <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
