@@ -44,7 +44,7 @@
   yarn dev # com Yarn
 ```
 
-### Acesse o projeto clicando: <a href="https://event-platform-seven-swart.vercel.app" target="_blank" rel="noreferrer">Aqui</a>
+### Acesse o projeto clicando: <a href="https://ignitelab-2022.vercel.app" target="_blank" rel="noreferrer">Aqui</a>
 <br>
 
 <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
