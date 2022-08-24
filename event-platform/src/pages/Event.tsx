@@ -10,7 +10,7 @@ export function Event() {
       <Header />
       <main className="flex flex-1">
         { slug 
-          ? <Video lessonSlug={slug}/> 
+          ? <Video lessonSlug={slug} /> 
           : <div className="flex-1" /> 
         }
         <Sidebar />
